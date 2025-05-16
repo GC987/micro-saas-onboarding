@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/dashboard": "pages/dashboard.js",
+  "/api/auth/register": "pages/api/auth/register.js",
+  "/login": "pages/login.js",
+  "/api/auth/login": "pages/api/auth/login.js",
+  "/analises": "pages/analises.js",
+  "/checklists": "pages/checklists.js",
+  "/register": "pages/register.js",
+  "/api/analytics/data": "pages/api/analytics/data.js",
+  "/api/checklists": "pages/api/checklists.js"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CheckClient Logo</title>
+    <g id="Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Background" fill="#3b82f6" cx="16" cy="16" r="16"></circle>
+        <path d="M22.2071,12.2071 C22.5976,11.8166 22.5976,11.1834 22.2071,10.7929 C21.8166,10.4024 21.1834,10.4024 20.7929,10.7929 L14,17.5858 L11.2071,14.7929 C10.8166,14.4024 10.1834,14.4024 9.79289,14.7929 C9.40237,15.1834 9.40237,15.8166 9.79289,16.2071 L13.2929,19.7071 C13.6834,20.0976 14.3166,20.0976 14.7071,19.7071 L22.2071,12.2071 Z" id="Check" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

@@ -1,0 +1,34 @@
+// Prisma schema para desenvolvimento (SQLite)
+// Quando estiver pronto para produção, mude para PostgreSQL
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String?
+  email     String   @unique
+  password  String   // hashed
+  checklists Checklist[]
+}
+
+model Checklist {
+  id          Int      @id @default(autoincrement())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      Int
+  clientName  String
+  clientEmail String   // email do cliente para envio de documentos
+  serviceType String
+  fields      String
+  responses   String?  // JSON formato: {textResponses: {}, files: {}, submittedAt: ""}
+  publicToken String
+  status      String   @default("Pendente")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
